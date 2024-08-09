@@ -1,0 +1,492 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarkSheet</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="srNo">SL.No U <span class="special">0000000</span></div>
+        <div class="logo">
+          <img
+            src="image/download.jpeg"
+            class="hicet-logo"
+            alt="hicet-logo"
+          />
+        </div>
+        <div class="qrCode">
+          <img class="qr" src="image/Github Qr code.png" alt="Hicet-QR" />
+        </div>
+      </div>
+      <div class="title">
+        <span class="clg-title"
+          >HINDUSTHAN COLLEGE OF ENGINEERING AND TECHNOLOGY</span
+        ><br /><br />
+        <div>
+          Approved by ACITE, New Delhi Accredited with A++ Grade by NAAC
+          <br />
+          (An Autonomous institution, Affiliated Anna University, Chennai)
+          <br />
+          <span class="add"> Coimbatore - 641 032.</span>
+        </div>
+      </div>
+      <div class="mark-title">
+        Annual Marksheet
+      </div>
+      <div class="candidate-container">
+        <div class="candidate-name">
+          <span class="red-title">Name of the Candidate</span>
+          <br />
+          BHARATHKUMAR K
+        </div>
+        <div class="Course">
+          <span class="red-title"> Course name With Code</span>
+          <br />
+          BTECH INFORMATION TECHNOLOGY
+          <br />
+        </div>
+        <div class="reg-no">
+          <span class="red-title"> Reg. No</span>
+          <br />
+          720721110063
+        </div>
+        <div class="enrol">
+          <span class="red-title">Enrollment No</span>
+          <br />
+          BK 231245
+        </div>
+        <div class="authorise">
+          <span class="red-title"> Authorised Training Center Name</span>
+          <br />
+          HINDUSTHAN COLLEGE OF ENGINEERING & TECHNOLOGY
+        </div>
+      </div>
+      <div class="mark">
+        <table>
+          <tr>
+            <th rowspan="2" class="table-title red-title">Subject Code</th>
+            <th rowspan="2" class="table-title red-title">Subject Name</th>
+            <th rowspan="2" class="table-title red-title">Max Marks</th>
+            <th colspan="3" class="table-title red-title">Mark Obtained in Figures</th>
+            <th rowspan="2" class="table-title red-title">Total in Words</th>
+          </tr>
+          <tr>
+            <td class="red-title">Theory</td>
+            <td class="red-title">Practical</td>
+            <td class="red-title">Total</td>
+          </tr>
+          <tr>
+            <td>21IT2001</td>
+            <td>HTML</td>
+            <td>100</td>
+            <td>
+              <input class="theory1 theory" type="number" id="mark" />
+            </td>
+            <td>
+              <input
+                class="input practical practical1"
+                type="number"
+                id="mark"
+              />
+            </td>
+            <td class="total total1">00</td>
+            <td class="total-in-word1">Zero Zero</td>
+          </tr>
+          <tr>
+            <td>21IT2002</td>
+            <td>CSS</td>
+            <td>100</td>
+            <td>
+              <input class="input theory theory2" type="number" id="mark" />
+            </td>
+            <td>
+              <input
+                class="input practical practical2"
+                type="number"
+                id="mark"
+              />
+            </td>
+            <td class="total total2">00</td>
+            <td class="total-in-word2">Zero Zero</td>
+          </tr>
+          <tr>
+            <td>21IT2003</td>
+            <td>JAVASCRIPT</td>
+            <td>100</td>
+            <td>
+              <input class="input theory theory3" type="number" id="mark" />
+            </td>
+            <td>
+              <input
+                class="input practical practical3"
+                type="number"
+                id="mark"
+              />
+            </td>
+            <td class="total total3">00</td>
+            <td class="total-in-word3">Zero Zero</td>
+          </tr>
+          <tr>
+            <td>21IT2004</td>
+            <td>REACT JAVASCRIPT</td>
+            <td>100</td>
+            <td>
+              <input class="input theory theory4" type="number" id="mark" />
+            </td>
+            <td>
+              <input
+                class="input practical practical4"
+                type="number"
+                id="mark"
+              />
+            </td>
+            <td class="total total4">00</td>
+            <td class="total-in-word4">Zero Zero</td>
+          </tr>
+          <tr>
+            <td>21IT2005</td>
+            <td>JAVA PROGRAMMING</td>
+            <td>100</td>
+            <td>
+              <input class="input theory theory5" type="number" id="mark" />
+            </td>
+            <td>
+              <input
+                class="input practical practical5"
+                type="number"
+                id="mark"
+              />
+            </td>
+            <td class="total total5">00</td>
+            <td class="total-in-word5">Zero Zero</td>
+          </tr>
+          <tr>
+            <td colspan="5" class="grand-total">Grand Total :</td>
+            <td colspan="2" class="total-total">00</td>
+          </tr>
+          <tr>
+            <td colspan="2" class="red-title">Month and Year of Examination</td>
+            <td colspan="2" class="red-title">No of Subjects Offered</td>
+            <td class="red-title">Result</td>
+            <td class="red-title">Percentage</td>
+            <td class="red-title">Grade</td>
+          </tr>
+          <tr>
+            <td colspan="2">MAY 2025</td>
+            <td colspan="2">T3+P2=5</td>
+            <td class="result">PAAS</td>
+            <td class="percentage">00</td>
+            <td class="grade">00</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="bottom">
+        <div class="date">Date</div>
+        <div class="sign">Signature</div>
+      </div>
+    </div>
+    <script>
+        const input = document.querySelectorAll("input");
+const total_total = document.querySelector(".total-total");
+
+const theory1 = document.querySelector(".theory1");
+const practical1 = document.querySelector(".practical1");
+const total1 = document.querySelector(".total1");
+theory1.addEventListener("input", (e) => {
+   if(e.target.value>75){
+    alert("Maximum Theory Mark is 75");
+    e.target.value = 75;
+   }
+    const value = e.target.value;
+  total1.innerHTML = Number(value) + Number(practical1.value);
+  
+  const totalVal =
+    parseInt(total1.innerHTML) +
+    parseInt(total2.innerHTML) +
+    parseInt(total2.innerHTML) +
+    parseInt(total4.innerHTML) +
+    parseInt(total5.innerHTML);
+
+  total_total.innerHTML = Number(totalVal);
+
+  updateResult(Number(totalVal));
+  const total_in_word = document.querySelector('.total-in-word1');
+  total_in_word.innerHTML = `${test(parseInt(total1.innerHTML))}` ;
+});
+practical1.addEventListener("input", (e) => {
+
+  if(e.target.value>25){
+    alert("Maximum Practical Mark is 25");
+    e.target.value = 25;
+  }
+     const value = e.target.value;
+    total1.innerHTML = Number(value) + Number(theory1.value);
+  const totalVal =
+    parseInt(total1.innerHTML) +
+    parseInt(total2.innerHTML) +
+    parseInt(total2.innerHTML) +
+    parseInt(total4.innerHTML) +
+    parseInt(total5.innerHTML);
+
+  total_total.innerHTML = Number(totalVal);
+  updateResult(Number(totalVal));
+  const total_in_word = document.querySelector('.total-in-word1');
+  total_in_word.innerHTML = `${test(parseInt(total1.innerHTML))}` ;
+});
+
+const theory2 = document.querySelector(".theory2");
+const practical2 = document.querySelector(".practical2");
+const total2 = document.querySelector(".total2");
+theory2.addEventListener("input", (e) => {
+
+  if(e.target.value>75){
+    alert("Maximum Theory Mark is 75");
+    e.target.value = 75;
+  }
+    const value = e.target.value;
+    total2.innerHTML = Number(value) + Number(practical2.value);
+  const totalVal =
+    parseInt(total1.innerHTML) +
+    parseInt(total2.innerHTML) +
+    parseInt(total2.innerHTML) +
+    parseInt(total4.innerHTML) +
+    parseInt(total5.innerHTML);
+
+  total_total.innerHTML = Number(totalVal);
+
+  updateResult(Number(totalVal));
+  const total_in_word = document.querySelector('.total-in-word2');
+  total_in_word.innerHTML = `${test(parseInt(total2.innerHTML))}` ;
+});
+practical2.addEventListener("input", (e) => {
+  
+  if(e.target.value>25){
+    alert("Maximum Practical Mark is 25");
+    e.target.value = 25;
+  }
+    const value = e.target.value;
+    total2.innerHTML = Number(value) + Number(theory2.value);
+  const totalVal =
+    parseInt(total1.innerHTML) +
+    parseInt(total2.innerHTML) +
+    parseInt(total2.innerHTML) +
+    parseInt(total4.innerHTML) +
+    parseInt(total5.innerHTML);
+
+  total_total.innerHTML = Number(totalVal);
+
+  updateResult(Number(totalVal));
+  const total_in_word = document.querySelector('.total-in-word2');
+  total_in_word.innerHTML = `${test(parseInt(total2.innerHTML))}` ;
+});
+
+const theory3 = document.querySelector(".theory3");
+const practical3 = document.querySelector(".practical3");
+const total3 = document.querySelector(".total3");
+theory3.addEventListener("input", (e) => {
+  
+  if(e.target.value>75){
+    alert("Maximum Theory Mark is 75");
+    e.target.value = 75;
+  }
+    const value = e.target.value;
+    total3.innerHTML = Number(value) + Number(practical3.value);
+  const totalVal =
+    parseInt(total1.innerHTML) +
+    parseInt(total2.innerHTML) +
+    parseInt(total2.innerHTML) +
+    parseInt(total4.innerHTML) +
+    parseInt(total5.innerHTML);
+
+  total_total.innerHTML = Number(totalVal);
+
+
+  updateResult(Number(totalVal));
+  const total_in_word = document.querySelector('.total-in-word3');
+  total_in_word.innerHTML = `${test(parseInt(total3.innerHTML))}` ;
+});
+practical3.addEventListener("input", (e) => {
+  
+  if(e.target.value>25){
+    alert("Maximum Practical Mark is 25");
+    e.target.value = 25;
+  }
+    const value = e.target.value;
+
+    total3.innerHTML = Number(value) + Number(theory3.value);
+  const totalVal =
+    parseInt(total1.innerHTML) +
+    parseInt(total2.innerHTML) +
+    parseInt(total2.innerHTML) +
+    parseInt(total4.innerHTML) +
+    parseInt(total5.innerHTML);
+
+  total_total.innerHTML = Number(totalVal);
+
+  updateResult(Number(totalVal));
+  const total_in_word = document.querySelector('.total-in-word3');
+  total_in_word.innerHTML = `${test(parseInt(total3.innerHTML))}` ;
+});
+
+const theory4 = document.querySelector(".theory4");
+const practical4 = document.querySelector(".practical4");
+const total4 = document.querySelector(".total4");
+theory4.addEventListener("input", (e) => {
+  
+  if(e.target.value>75){
+    alert("Maximum Theory Mark is 75");
+    e.target.value = 75;
+  }
+    const value = e.target.value;
+    total4.innerHTML = Number(value) + Number(practical4.value);
+  const totalVal =
+    parseInt(total1.innerHTML) +
+    parseInt(total2.innerHTML) +
+    parseInt(total2.innerHTML) +
+    parseInt(total4.innerHTML) +
+    parseInt(total5.innerHTML);
+
+  total_total.innerHTML = Number(totalVal);
+
+  updateResult(Number(totalVal));
+  const total_in_word = document.querySelector('.total-in-word4');
+  total_in_word.innerHTML = `${test(parseInt(total4.innerHTML))}` ;
+});
+practical4.addEventListener("input", (e) => {
+  
+  if(e.target.value>25){
+    alert("Maximum Practical Mark is 25");
+    e.target.value = 25;
+  }
+    const value = e.target.value;
+    total4.innerHTML = Number(value) + Number(theory4.value);
+  const totalVal =
+    parseInt(total1.innerHTML) +
+    parseInt(total2.innerHTML) +
+    parseInt(total2.innerHTML) +
+    parseInt(total4.innerHTML) +
+    parseInt(total5.innerHTML);
+
+  total_total.innerHTML = Number(totalVal);
+
+  updateResult(Number(totalVal));
+  const total_in_word = document.querySelector('.total-in-word4');
+  total_in_word.innerHTML = `${test(parseInt(total4.innerHTML))}` ;
+});
+
+const theory5 = document.querySelector(".theory5");
+const practical5 = document.querySelector(".practical5");
+const total5 = document.querySelector(".total5");
+theory5.addEventListener("input", (e) => {
+  
+  if(e.target.value>75){
+    alert("Maximum Theory Mark is 75");
+    e.target.value = 75;
+  }
+    const value = e.target.value;
+    total5.innerHTML = Number(value) + Number(practical5.value);
+  const totalVal =
+    parseInt(total1.innerHTML) +
+    parseInt(total2.innerHTML) +
+    parseInt(total2.innerHTML) +
+    parseInt(total4.innerHTML) +
+    parseInt(total5.innerHTML);
+
+  total_total.innerHTML = Number(totalVal);
+
+  updateResult(Number(totalVal));
+  const total_in_word = document.querySelector('.total-in-word5');
+  total_in_word.innerHTML = `${test(parseInt(total5.innerHTML))}` ;
+});
+practical5.addEventListener("input", (e) => {
+  
+   if(e.target.value>25){
+    alert("Maximum Practical Mark is 25");
+    e.target.value = 25;
+   }
+    const value = e.target.value;
+   
+    total5.innerHTML = Number(value) + Number(theory5.value);
+  const totalVal =
+    parseInt(total1.innerHTML) +
+    parseInt(total2.innerHTML) +
+    parseInt(total2.innerHTML) +
+    parseInt(total4.innerHTML) +
+    parseInt(total5.innerHTML);
+
+  total_total.innerHTML = Number(totalVal);
+
+  updateResult(Number(totalVal));
+  const total_in_word = document.querySelector('.total-in-word5');
+  total_in_word.innerHTML = `${test(parseInt(total5.innerHTML))}` ;
+});
+
+function updateResult(total) {
+  const result = document.querySelector(".result");
+  const percentage = document.querySelector(".percentage");
+  const grade = document.querySelector(".grade");
+
+  if (total < 285) {
+    result.innerHTML = "Fail";
+  } else {
+    result.innerHTML = "Pass";
+  }
+
+  let per = total / 5;
+  percentage.innerHTML = per + "%";
+  if (per >= 90) {
+    grade.innerHTML = "A+";
+  } else if (per >= 80) {
+    grade.innerHTML = "A";
+  } else if (per >= 70) {
+    grade.innerHTML = "B";
+  } else if (per >= 60) {
+    grade.innerHTML = "C";
+  }
+}
+
+
+
+///Converts Numbers to Words 
+function test(n) {
+  if (n < 0)
+      return false;
+
+  single_digit = ['', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine']
+  double_digit = ['Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen']
+  below_hundred = ['Twenty', 'Thirty', 'Forty', 'Fifty', 'Sixty', 'Seventy', 'Eighty', 'Ninety']
+  
+  if (n === 0) return 'Zero';
+  
+  function translate(n) {
+      let word = "";
+      if (n < 10) {
+          word = single_digit[n] + ' ';
+      } else if (n < 20) {
+          word = double_digit[n - 10] + ' ';
+      } else if (n < 100) {
+          let rem = translate(n % 10);
+          word = below_hundred[(n - n % 10) / 10 - 2] + ' ' + rem;
+      } else if (n < 1000) {
+          word = single_digit[Math.trunc(n / 100)] + ' Hundred ' + translate(n % 100);
+      } else if (n < 1000000) {
+          word = translate(parseInt(n / 1000)).trim() + ' Thousand ' + translate(n % 1000);
+      } else if (n < 1000000000) {
+          word = translate(parseInt(n / 1000000)).trim() + ' Million ' + translate(n % 1000000);
+      } else {
+          word = translate(parseInt(n / 1000000000)).trim() + ' Billion ' + translate(n % 1000000000);
+      }
+      return word;
+  }
+  
+  let result = translate(n);
+  return result.trim() + '';
+}
+    </script>
+  </body>
+</html>

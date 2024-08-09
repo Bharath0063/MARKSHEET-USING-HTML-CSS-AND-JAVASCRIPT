@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .grand-total{
+    text-align: right;
+  }
+  
+  .total-total{
+    text-align: center;
+  }
+  .container {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    border: 5px solid #7c140c;
+    /* background-image: url(assets/bg.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+  }
+  .logo {
+    width: 30rem;
+  }
+  .hicet-logo {
+    padding: 0%;
+    margin: 0%;
+  }
+  .qr {
+    height: 150px;
+    width: 150px;
+  }
+  .special {
+    color: #7c140c;
+  }
+  
+  .srNo {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+  
+  .clg-title {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: #010081;
+  }
+  .title {
+    margin-bottom: 1rem;
+  }
+  .mark-title {
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: -14px;
+    color: red;
+  }
+  
+  .candidate-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    padding: 2rem;
+  }
+  
+  .candidate-name {
+    grid-column: auto / span 2;
+    text-align: center;
+    border: 2px solid #C39A56;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(251, 235, 221, 0.3);
+  }
+  
+  .Course {
+    grid-column: auto / span 2;
+    text-align: center;
+    border: 2px solid #C39A56;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(251, 235, 221, 0.3);
+  }
+  
+  .authorise {
+    grid-column: auto / span 2;
+    text-align: center;
+    border: 2px solid #C39A56;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(251, 235, 221, 0.3);
+  }
+  .reg-no,
+  .enrol {
+    border: 2px solid #C39A56;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(251, 235, 221, 0.3);
+  }
+  
+  .red-title {
+    color: brown;
+    font-weight: bolder;
+  }
+  
+  .mark {
+    text-align: center;
+    padding: 0 2rem 2rem 2rem;
+  }
+  
+  .table {
+    width: 60vw;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgba(251, 235, 221, 0.3);
+  }
+  td,
+  th {
+    padding: 1rem;
+    border: 2px solid #C39A56;
+    border-collapse: collapse;
+  }
+  
+  td{
+    font-weight: bolder;
+  }
+  
+  .table-title {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  input {
+    width: 4rem;
+    height: 2rem;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    font-size: 15px;
+  }
+  
+  .total-total {
+    text-align: center;
+  }
+  
+  .bottom {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+  }
+  
+  .date,
+  .sign {
+    font-size: 20px;
+    font-weight: bolder;
+  }
